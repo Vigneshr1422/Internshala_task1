@@ -20,6 +20,8 @@ const Header = () => {
           <a href="/#about" className="hover:underline">About</a>
           <a href="/#contact" className="hover:underline">Contact</a>
                     <a href="/login" className="hover:underline">Login</a>
+                                        <a href="/register" className="hover:underline">Register</a>
+
 
         </nav>
 
@@ -41,6 +43,10 @@ const Header = () => {
           <a href="#features" className="text-white hover:underline">Features</a>
           <a href="#about" className="text-white hover:underline">About</a>
           <a href="#contact" className="text-white hover:underline">Contact</a>
+          <a href="/login" className="text-white hover:underline">Login</a>
+                                                  <a href="/register" className="hover:underline">Register</a>
+
+
         </nav>
       </div>
     </header>

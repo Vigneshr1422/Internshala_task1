@@ -98,14 +98,14 @@ const Register = () => {
         </form>
 
         {/* Link to login page */}
-        <div className="mt-4 text-center">
+        {/* <div className="mt-4 text-center">
           <p>
             Already have an account?{''}
             <a href="/login" className="text-blue-500 hover:underline">
               Login here
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
 
       {/* Stylish Toast Notification */}

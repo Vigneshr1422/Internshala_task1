@@ -73,12 +73,12 @@ const Login = () => {
             {isLoading ? 'Logging In...' : 'Login'}
           </button>
         </form>
-        <div className="mt-4 text-center">
+        {/* <div className="mt-4 text-center">
           <p>
             Don't have an account?{' '}
             <a href="/register" className="text-blue-500">Register here</a>
           </p>
-        </div>
+        </div> */}
       </div>
 
       {/* Toast Notifications */}
