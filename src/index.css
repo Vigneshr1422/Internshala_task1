@@ -1,0 +1,15 @@
+/* src/index.css */
+
+/* Tailwind's base styles */
+@tailwind base;
+
+/* Tailwind's component styles */
+@tailwind components;
+
+/* Tailwind's utility classes */
+@tailwind utilities;
+
+/* Add any custom global styles below */
+body {
+  font-family: 'Arial', sans-serif; /* Example: Change default font */
+}
