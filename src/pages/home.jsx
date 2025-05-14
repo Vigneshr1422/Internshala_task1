@@ -66,13 +66,21 @@ export default function Home() {
             </button>
           </Link>
         </div>
-        <div className="md:w-1/2">
-          <img
-            src="public/assets/baby.jpg"
-            alt="Illustration"
-            className="w-full max-w-md mx-auto"
-          />
-        </div>
+        <div className="md:w-1/2 flex justify-center">
+  <div
+    dangerouslySetInnerHTML={{
+      __html: `<dotlottie-player 
+          src="https://lottie.host/e35d2ced-62bc-4444-b756-fb03ddc8328a/ji3MeCfIJh.lottie" 
+          background="transparent" 
+          speed="1" 
+          style="width: 300px; height: 300px" 
+          loop 
+          autoplay>
+        </dotlottie-player>`,
+    }}
+  />
+</div>
+
       </section>
 
       {/* Why We Created Section */}
