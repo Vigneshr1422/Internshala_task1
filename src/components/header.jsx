@@ -16,9 +16,11 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6">
           <a href="/" className="hover:underline">Home</a>
-          <a href="#features" className="hover:underline">Features</a>
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#contact" className="hover:underline">Contact</a>
+          <a href="/#features" className="hover:underline">Features</a>
+          <a href="/#about" className="hover:underline">About</a>
+          <a href="/#contact" className="hover:underline">Contact</a>
+                    <a href="/login" className="hover:underline">Login</a>
+
         </nav>
 
         {/* Mobile Menu Button */}
